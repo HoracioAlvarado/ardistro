@@ -12,12 +12,14 @@ $plugin = array(
   'theme arguments' => array('id', 'content'),
   'css' => 'principal.css',
   'regions' => array(
-    'top' => t('Top'), 
-    'middle' => t('Middle'), 
-    'middle_bottom_left' => t('Middle bottom left'),
-    'middle_bottom_center' => t('Middle bottom center'),
-    'middle_bottom_right' => t('Middle bottom right'),
-    'bottom' => t('Bottom')
+    'one' => t('Primer bloque'),
+    'two' => t('Middle column'),
+    'three' => t('Noticias'),
+    'four' => t('Center side'),
+    'destacado' => t('Bloque destacado'),
+    'editorial_one' => t('Editorial main'),
+    'editorial_two' => t('Editorial sidebar'),
+
   ),
 );
 
