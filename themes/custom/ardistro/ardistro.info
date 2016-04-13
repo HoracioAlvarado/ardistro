@@ -25,6 +25,13 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = 'css/bootstrapFlaty.css'
+stylesheets[all][] = 'css/bootswatchFlaty.css'
+stylesheets[all][] = 'css/user.css'
+settings[bootstrap_cdn_custom_css] = '//fonts.googleapis.com/icon?family=Material+Icons'
+;stylesheets[all][] = 'css/bootstrap.css'
+;stylesheets[all][] = 'css/bootswatch.css'
+;stylesheets[all][] = '//fonts.googleapis.com/icon?family=Material+Icons'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Plugins
