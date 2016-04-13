@@ -1,16 +1,12 @@
 <?php
 
-/**
- * implementation of hook_panels_layouts
- */
 // Plugin definition
 $plugin = array(
-  'title' => t('Principal'),
+  'title' => t('Página principal'),
   'category' => t('AR Distro'),
-  'icon' => 'principal.png',
-  'theme' => 'panels-principal',
-  'theme arguments' => array('id', 'content'),
-  'css' => 'principal.css',
+  'icon' => 'pagina-principal.png',
+  'theme' => 'pagina-principal',
+  'css' => 'pagina-principal.css',
   'regions' => array(
     'top' => t('Top'), 
     'middle' => t('Middle'), 
@@ -19,5 +15,5 @@ $plugin = array(
     'middle_bottom_right' => t('Middle bottom right'),
     'bottom' => t('Bottom')
   ),
-);
 
+);
