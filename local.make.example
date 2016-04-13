@@ -6,3 +6,8 @@ projects[drupal][version] = "7.x"
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
 
+; +++++ TODO modules without versions +++++
+
+projects[ardistro_bloques][version] = "" ; TODO add version
+projects[ardistro_bloques][subdir] = "custom"
+

@@ -70,7 +70,6 @@ projects[wysiwyg][subdir] = "contrib"
 projects[views][version] = "3.13"
 projects[views][subdir] = "contrib"
 
-
 ; +++++ Themes +++++
 
 ; adminimal_theme
