@@ -1,0 +1,16 @@
+/*nav menu*/
+.navbar-default {
+  background-color: #23ccc7;
+  position: initial; }
+  .navbar-default a {
+    color: #fff; }
+  .navbar-default .menu {
+    background-color: #23ccc7; }
+  .navbar-default .nav {
+    padding-bottom: 0; }
+  .navbar-default .nav > li > a {
+    border-radius: 0;
+    background-color: #23ccc7;
+    color: #fff; }
+
+/*# sourceMappingURL=menu-principal.css.map */
