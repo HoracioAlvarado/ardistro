@@ -1,5 +1,5 @@
 name = AR Distro
-description = AR Distro
+description = AR Distro theme
 core = 7.x
 base theme = bootstrap
 
@@ -25,9 +25,3 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
-
-
-;;;;;;;;;;;;;;;;;;;;;
-;; Layouts
-;;;;;;;;;;;;;;;;;;;;;
-plugins[panels][layouts] = layouts
