@@ -1,0 +1,63 @@
+
+/*shotcuts*/
+.shortcuts-section {
+	margin: 15px 0;
+}
+
+.shortcut {
+	color: #FFF;
+	margin: 0 auto;
+	width: auto;
+	height: 120px;
+	border-radius: 0;
+	display: block;
+	text-align: center;
+}
+
+.shortcut .glyphicon {
+	top: 28%;
+}
+.shortcut-base {
+	color: $color-segundario;
+}
+.shortcut-uno {
+	color: $color-1;
+}
+
+.shortcut-dos {
+	color: $color-2;
+}
+
+.shortcut-tres {
+	color: $color-3;
+}
+
+.shortcut-cuatro {
+	color: $color-4;
+}
+
+.shortcut-cinco {
+	color: $color-5;
+}
+
+.shortcut-seis {
+	color: $color-6;
+}
+
+.shortcut-siete {
+	background-color: #ddd;
+}
+
+.shortcut-transparent {
+	background-color: transparent;
+}
+
+.shortcuts-section .glyphicon {
+	padding-top: 30%;
+	font-size: 48px;
+	padding-left: 28%;
+}
+
+.shortcuts-section p {
+	color: #888;
+}

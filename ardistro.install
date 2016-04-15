@@ -1,4 +1,53 @@
 <?php
+
+/**
+ * Implements hook_install_tasks().
+ *
+ * Allows the profile to alter the site configuration form.
+ */
+
+function ardistro_install_tasks(){
+
+  $tasks = array();
+
+  $tasks['enable_pages'] = array(
+    'display_name' => t('Habilitar paneles'),
+    'display' => TRUE,
+    'type' => 'normal',
+  );
+
+  // ya está en ardistro_install
+  // $tasks['revert_features'] = array(
+  //   'display_name' => t('Revertir Features'),
+  //   'display' => TRUE,
+  //   'type' => 'normal',
+  // );
+
+  return $tasks;
+}
+
+// Habilita Node Overview de Page Manager Existing Pages
+
+function enable_pages(){
+  $pages = array("pm_existing_pages-node_overview", "node_view");
+  foreach ($pages as $item) {
+    $page = page_manager_get_page_cache($item);
+    $function = ctools_plugin_get_function($page->subtask, "enable callback"); 
+    $function($page, FALSE); 
+    menu_rebuild();
+  }
+}
+
+function revert_features(){
+  features_revert(
+    array(
+      'ar_distro'
+    )
+  );
+}
+
+
+
 /**
  * Implements hook_install().
  *
@@ -126,3 +175,4 @@ function ardistro_install() {
   // ignore any other install messages
   drupal_get_messages();
 }
+

@@ -5,8 +5,8 @@
  */
 // Plugin definition
 $plugin = array(
-  'title' => t('Página principal'),
-  'category' => t('Principal'),
+  'title' => t('Principal'),
+  'category' => t('AR Distro'),
   'icon' => 'principal.png',
   'theme' => 'panels-principal',
   'theme arguments' => array('id', 'content'),

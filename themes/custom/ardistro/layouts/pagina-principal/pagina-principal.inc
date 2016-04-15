@@ -3,7 +3,7 @@
 // Plugin definition
 $plugin = array(
   'title' => t('Página principal'),
-  'category' => t('BA Distro'),
+  'category' => t('AR Distro'),
   'icon' => 'pagina-principal.png',
   'theme' => 'pagina-principal',
   'css' => 'pagina-principal.css',

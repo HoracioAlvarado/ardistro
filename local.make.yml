@@ -10,16 +10,16 @@ defaults:
 projects:
   drupal:
     version: '7.43'
+  # ardistro:
+  #   type: "profile"
+  #   subdir: ""
+  #   download:
+  #     type: "copy" # Note, 'git' is the default, no need to specify.
+  #     url: "../ardistro"
   ardistro:
     type: "profile"
     subdir: ""
     download:
-      type: "copy" # Note, 'git' is the default, no need to specify.
-      url: "../ardistro"
-# badistro:
-#     type: "profile"
-#     subdir: ""
-#     download:
-#       type: "git" # Note, 'git' is the default, no need to specify.
-#       url: "https://github.com/arg/ardistro.git"
-#       revision: "master"
+      type: "git" # Note, 'git' is the default, no need to specify.
+      url: "https://github.com/HoracioAlvarado/ardistro.git"
+      revision: "master"
