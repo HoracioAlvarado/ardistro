@@ -23,7 +23,7 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
-
+stylesheets[all][] = bootstrap/dist/css/bootstrap.min.css
 stylesheets[all][] = css/style.css
 
 
@@ -31,3 +31,6 @@ stylesheets[all][] = css/style.css
 ;; Layouts
 ;;;;;;;;;;;;;;;;;;;;;
 plugins[panels][layouts] = layouts
+
+
+settings[bootstrap_cdn] = ''
